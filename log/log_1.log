@@ -1,0 +1,4 @@
+[123]	[DEBUG]	yyyy
+[123]	[INFO]	info log
+[123]	[FATAL]	fatal log
+[123]	[DEBUG]	debug fmt log
