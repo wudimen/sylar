@@ -1,0 +1,3 @@
+/home/linjie/cpp/class2/sylar_proc/sylar/my/build/CMakeFiles/edit_cache.dir
+/home/linjie/cpp/class2/sylar_proc/sylar/my/build/CMakeFiles/test_socket.dir
+/home/linjie/cpp/class2/sylar_proc/sylar/my/build/CMakeFiles/rebuild_cache.dir

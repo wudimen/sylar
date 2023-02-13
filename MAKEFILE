@@ -1,0 +1,4 @@
+dst:
+	test.cpp log.cpp -o test
+	g++ test.cpp config.cpp -o test -lyaml-cpp
+	g++ test.cpp config.cpp log.cpp -o test

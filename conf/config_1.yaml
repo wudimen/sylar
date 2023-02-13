@@ -1,0 +1,65 @@
+name: linjie
+age: 21
+sex: man
+uu: 
+
+test:
+  aa: 1
+  bb: 2
+  cc: 3 
+
+launage: 
+  - c++
+  - java
+  - python
+
+system: 
+  int: 8081
+  float: 1.3
+  int_vec: 
+    - 2
+    - 3
+    - 4
+  list_int: 
+    - 2
+    - 3
+    - 4
+  set_int: 
+    - 2
+    - 3
+    - 4
+  map_int: 
+    nn_1: 2
+    nn_2: 3
+    nn_3: 4
+  person: 
+    name: linjie_1
+    age: 32
+    sex: false
+
+logs:
+  - name: root
+    level: info
+    appenders:
+      - type: FileLogAppender
+        file: /apps/logs/sylar/root.txt
+      - type: StdoutLogAppender
+log_system:
+  - name: system_1
+    level: info
+    formatter: \[d\]T[t]T[s]N
+    appenders:
+      - type: FileLogAppender
+        format: --[d]T[t]T[l]T[s]N
+        file: ./log/log_system_1.log
+      - type: StdoutLogAppender
+        format: --[d]T[t]T[l]T[s]N
+  - name: system 
+    level: info
+    formatter: \[d\]T[t]T[s]N
+    appenders:
+      - type: StdoutLogAppender
+        format: --[d]T[t]T[s]2N--
+      - type: FileLogAppender
+        format: --[d]T[t]T[s]1N--
+        file: ./log/log_system_2.log
